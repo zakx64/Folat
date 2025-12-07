@@ -1,0 +1,3 @@
+.m dm1 Hello, World!
+set dm1
+out 10r
