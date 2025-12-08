@@ -5,7 +5,9 @@ DTM is a primitive Finite State Machine computational class esolang. This reposi
 ## Content
 - "dlib.py"     : Library with functions that perform the instructions.
 - "example.dtm" : Example of how to print a "Hello, World!" in DTM.
+- "LICENSE"     : MIT license
 - "main.py"     : Main file, contains the interpreter.
+- "README.md"   : File that explains some details of the repository.
 
 ## Instalation and execution
 ```bash
@@ -36,7 +38,7 @@ Only [Python 3](https://www.python.org/downloads/) is required in this repositor
 ```
 .m dm1 Hello, World!
 set dm1
-out 10r
+out
 ```
 Output: `Hello, World!`
 
