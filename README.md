@@ -20,14 +20,14 @@ sudo apt update
 sudo apt install python3
 ```
 
-## Erros e significados
+## Errors and Meanings
 | Error                             | Meaning                         |
 | --------------------------------- | ------------------------------- |
 | `error: unknown definer '*'`      | Definer written wrong           |
 | `error: unknown instruction '*'`  | Written instruction incorrectly |
 | `error: macro '*' does not exist` | Macro name misspelled           |
 
-## Requeridos
+## Required
 Only [Python 3](https://www.python.org/downloads/) is required in this repository in this version.
 > Note: The project was done in Python 3, so previous versions may not work!
 
