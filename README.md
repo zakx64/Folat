@@ -43,7 +43,7 @@ Output: `Hello, World!`
 > Note: more examples and resources will come up over time!
 
 ## Links
-- Original and confirmed author on GitHub:       [mker-bin](https://github.com/mker-bin/)
-- Original and confirmed author on Esolangs.org: [Mker-bin](https://esolangs.org/wiki/User:Mker-bin/)
+- Original and confirmed author on GitHub:       [mker-bin](https://github.com/mker-bin)
+- Original and confirmed author on Esolangs.org: [Mker-bin](https://esolangs.org/wiki/User:Mker-bin)
 - GitHub repository:                             [DTM repository](https://github.com/mker-bin/DTM)
-- DTM page on esolangs.org:                      [DTM page](https://esolangs.org/wiki/DTM/)
+- DTM page on esolangs.org:                      [DTM page](https://esolangs.org/wiki/DTM)
