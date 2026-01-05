@@ -12,7 +12,7 @@ This esolang uses fixed-width parsing, where the instruction and the two argumen
 - "src/main.c"   : Folat interpreter and CLI.
 - "src/examples" : a folder of code examples in Folat. The ".fol" extension is optional.
 - "src/Makefile" : used to generate the "fol" binary and other functions; run `make help` for more information.
-- "bin/fol"      : optimized binary for the CLI.
+- "bin/fol"      : optimized binary for the CLI, use `make build` to generate it.
 
 # Memory
 MEM (Memory) is the main memory and is a 50-byte array. PNR (PoiNt Record) is a long that stores the index of the last line that starts with "---". FLG (FLaG) is a boolean that acts as a flag, and the instructions `cmp`, `gpt`, and `gpf` use FLG.
