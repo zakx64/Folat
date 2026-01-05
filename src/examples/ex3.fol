@@ -1,0 +1,9 @@
+; Condition Simulator
+set 000 0tf
+---        ;
+cmp 000 050
+add 000 001
+out 002    ;
+gpf        ;
+out 001    ;
+ext 000    ;

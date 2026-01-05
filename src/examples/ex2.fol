@@ -1,0 +1,7 @@
+; Hello World!
+set 000 Hel
+set 003 lo ;
+set 006 Wor
+set 009 ld!
+set 012 \--
+ext 001    ;

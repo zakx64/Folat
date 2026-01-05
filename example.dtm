@@ -1,7 +1,0 @@
-; comment
-.m dm1 Hello World!
-set dm1 inline comment
-out
-.m dm1 Hello World, again!
-set dm1
-outno error
