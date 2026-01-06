@@ -35,7 +35,7 @@ In Folat, points are lines that begin with "---". When the interpreter processes
 - `gpf`: return to the line that PNR points to if FLG = false.
 
 ## Utilities
-- `cmp trg dat`: if MEM[trg] == dat, FLG = true; otherwise, FLG = false. The dat field accepts both ASCII characters and numeric values.
+- `cmp trg dat`: if MEM[trg] == dat, FLG = true; otherwise, FLG = false. The data field only accepts characters such as ASCII codes.
 
 - `set trg dat`: writes dat to MEM starting from the trg index, and converts "\" to 0x0A and "-" to 0x07 (pseudo-null), which becomes 0x00 in MEM.
 
@@ -86,3 +86,5 @@ gpf            PC = 2        ; PC = 2      ; PC = PC (no effect)
 out 001        STDOUT = ffft ;
 ext 000        exit(0)
 ```
+# External Resources
+- [Folat esolang page](https://esolangs.org/wiki/Folat)
