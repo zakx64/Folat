@@ -5,13 +5,13 @@ This esolang uses fixed-width parsing, where the instruction and the two argumen
 # Contents
 - "README.md"    : general repository documentation.
 - "LICENSE"      : MIT license.
+- "Makefile"     : used to generate the "fol" binary and other functions; run `make help` for more information.
 - "bin"          : binaries.
 - "src"          : source codes.
 - "src/flib.c"   : library of functions for the instructions.
 - "src/flib.h"   : library header.
 - "src/main.c"   : Folat interpreter and CLI.
 - "src/examples" : a folder of code examples in Folat. The ".fol" extension is optional.
-- "src/Makefile" : used to generate the "fol" binary and other functions; run `make help` for more information.
 - "bin/fol"      : optimized binary for the CLI, use `make build` to generate it.
 
 # Memory
@@ -47,13 +47,18 @@ In Folat, points are lines that begin with "---". When the interpreter processes
 First, clone the repository and use the "make":
 ```bash
 $ git clone https://github.com/ytebbit/Folat
-$ cd folat/src/
+$ cd Folat
 $ make
+```
+
+Optionally, add the CLI:
+```
+$ make addcli
 ```
 
 To add the binary to the PATH, you can use `make addcli`. Then, you can run the example:
 ```bash
-$ fol folat/src/ex.fol
+$ fol Folat/src/examples/ex.fol
 Hello World!
 ```
 
