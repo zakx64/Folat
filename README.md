@@ -58,7 +58,7 @@ $ make addcli
 
 To add the binary to the PATH, you can use `make addcli`. Then, you can run the example:
 ```bash
-$ fol Folat/src/examples/ex.fol
+$ fol Folat/src/examples/ex1.fol
 Hello World!
 ```
 
